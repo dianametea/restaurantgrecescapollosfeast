@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+        <meta name="author" content="Metea Diana">
+        <meta name="keywords" content="restaurant, fine dining, restaurant grecesc,Brașov">
+        <meta name="description" content="pagina de prezentare a restaurantului grecesc  Apollo, un restaurant cu specific grecesc din Brașov. Pagina de prezentare conține  o scurtă istorie a restaurantului, echipa de bucătari, premiile câștigate,  meniul complet de mâncare și băuturi grecești ale restaurantului, opiniile criticilor culinari, o galerie de poze cu evenimentele și sălile din incintă, o pagină de contact cu toate platformele sociale și cu locația.    ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+        <title>Apollo's feast</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+        
+    <style>
+       body{
+            background-color: rgb(208, 199, 188);
+          }
+        h2{
+            text-align:center;
+            padding-top:20px;
+            font-size: 3rem;
+            color: rgb(50, 22, 22);
+        }
+        h3{
+            text-align:center;
+            padding-top:20px;
+            font-size: 2rem;
+            color: rgb(98, 43, 43);
+        }
+
+        .container-xxl{
+             margin:0;
+        }
+        .textstyle{
+            height: 1dvh;
+        }
+        p{
+            padding-bottom:none;
+            font-size: 0.8rem;
+        }
+        *{ font-family: "Bellefair";
+         }
+        .divstyle{
+            background-color: aliceblue;
+            padding-bottom: 10px;
+            padding-top: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+            opacity: 0.9;
+                }
+        .main-navbar {
+            background-color: aliceblue;
+            font-family: 'Bellefair';
+        }
+    
+
+        .main-navbar .navbar-brand {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+            margin-right: 0px;
+            padding-right:30%;
+        } 
+        /* asta-i numele  */
+        .main-navbar .navbar-brand img {
+            height: 100px;
+            margin-right: 10px;
+            padding-left:5px;
+            vertical-align: bottom;
+        }
+
+        .main-navbar .nav-link {
+            color: rgb(55, 17, 17, 0.7);
+           padding-right: 12px;
+        }
+
+        .main-navbar .nav-link:hover {
+            color:goldenrod;
+        }
+        
+        .bellefair{
+            font-family: "Bellefair";
+            color: rgb(62, 9, 9);
+            font-size: 15px;
+        }
+        .bellefair2{
+            font-family: "Bellefair";
+            color: rgb(62, 9, 9);
+            font-size: 2rem;
+        }
+        
+        footer {
+            background-color: aliceblue;
+        }
+        .main-footer .logo {
+            color: white;
+            text-decoration: none;
+        }
+       
+        .main-footer .logo img {
+            height: 20px;
+            margin-right: 16px;
+            vertical-align: bottom;
+        }
+        
+        .carousel-item img {
+            object-fit: cover;
+        }
+        .carousel-caption {
+            background-color: aliceblue;
+            opacity: 70%;
+        }
+
+        .citat {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            font-weight: 500;
+            color:black
+        }
+        .color{
+            background-color:aliceblue ;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-expand-md main-navbar sticky-top">
+        <nav class="container-xxl">
+            <h1 class="navbar-brand">
+                <a class="nav-link" href="#">
+                    <img src="harp.png">Apollo's feast
+                </a>
+            </h1>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="nav main-menu flex-column flex-md-row">
+                    <li class="nav-item"><a class="nav-link" href="#despre">Despre restaurant</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#meniu">Meniu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#evenimente">Evenimente</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="slider" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="4" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="ratio ratio-21x9">
+                        <img src="carusel1.jpg" class="d-block w-100" alt="poză cu un toast francez cu ou și avocado">
+                    </div>
+    
+                    <div class="carousel-caption shadow rounded">
+                        <p class="citat">Eleganță pură</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="carusel2.jpg" class="d-block w-100" alt="poza alb-negru cu un șir de pahare pe o masă">
+                    </div>
+    
+                    <div class="carousel-caption shadow rounded">
+                        <p class="citat">"În fiecare farfurie, rafinamentul devine poezie culinară."</p>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="carusel3.jpg" class="d-block w-100" alt="tort cu glazură albă, frișcă și o cireașă">
+                    </div>
+    
+                    <div class="carousel-caption shadow rounded">
+                        <p class="citat">"Fiecare preparat este o operă de artă gustativă, iar restaurantul nostru este scena unde rafinamentul strălucește."</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="carusel4.jpg" class="d-block w-100" alt="un șir de pahare de pe masa unui restaurant în cadrul unui eveniment">
+                    </div>
+    
+                    <div class="carousel-caption shadow rounded">
+                        <p class="citat">"Gastronomia rafinată: o artă subtilă în care fiecare gust este o podoabă pentru simțuri."</p>
+        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="carusel5.jpg" class="d-block w-100" alt="prăjitură lava cake cu glazură de ciocolată">
+                    </div>
+    
+                    <div class="carousel-caption shadow rounded">
+                        <p class="citat">"În restaurantul nostru, rafinamentul este ingredientul secret ce transformă masa într-o experiență memorabilă."</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+       </div>
+<hr class="hr hr-blurry" />
+
+
+     <div id="despre" class="container mb-3">
+        <div class="row divstyle">
+            <div class="col-12 mb-3">
+             <h2>Despre restaurantul nostru</h2>
+             <p>excelență în fine dining grecesc din 1998 </p>
+               
+        <p>Situat la poalele munților Brașovului, "Apollo's feast" este un loc unde cultura grecească se împletește cu o estetică montană, creând povești de neuitat pentru cei care îi calcă pragul. Înca din 1998, resturantul nostru s-a afirmat ca fiind unul din centrele de bază ale fine dining-ului, fiind apreciat de nenumarati critici.</p>
+        <p>Cutura grecească a pătruns subtil în Romania, însă <a href="https://gourmandelle.com/ro/bucataria-greceasca/" target="_blank">istoria bogată</a> a acesteia și-a lăsat puternic amprenta asupra oamenilor, exercitând o fascinație surprinzătoare. Cât despre începuturile noastre, anul 1998 a marcat prima treaptă spre succesul de care ne bucurăm în prezent. Tranziția de la un pub obscur la un resturant recunoscut în centrul României atestă dorința aprigă de a înrădăcina aceast fenomen cultural pe meleagurile noastre</p>
+        <p>Te asteptăm să-ti creezi propria poveste, navigând printre labirintul de arome si specialități culinare!</p>
+           </div>
+          </div>
+         </div>
+    <div class="container divstyle">
+            <h3>Recenzii din partea criticilor</h3>
+            <p>"Apollo's Feast impresionează încă de la prima intrare prin atmosfera sa autentică și caldă. Elementele de design, inspirate de cultura greacă, creează o atmosferă plăcută și autentică. Căldura pereților cu nuanțe de albastru și alb, împreună cu detaliile arhitecturale subtile, te transportă cu adevărat în inima Greciei."</p>
+            <p>Gustave Fleubire, chef francez</p>
+            <p>"Restaurantul Apollo's Feast nu este doar o destinație culinară, ci o călătorie autentică în inima bucătăriei grecești. Cu o atenție remarcabilă la autenticitate, ingrediente de calitate și serviciu excepțional, acest loc reprezintă cu adevărat o perla în peisajul culinar local. Recomand cu căldură restaurantul Apollo's Feast celor care apreciază autenticitatea și bucatele rafinate inspirate de tradiția greacă."</p>
+            <p>Meredith Adelaine, jurnalist</p>
+            <p>"Restaurantul Apollo's Feast nu este doar un loc unde să te hrănești; este o destinație culinară care celebrează tradiția, pasiunea și autenticitatea. Recomand acest loc cu entuziasm tuturor celor care caută nu doar o masă, ci o experiență culinară memorabilă, plină de arome și tradiții grecești autentice. Este un loc unde bucuria gastronomică se întâlnește cu frumusețea culturală, creând un amestec unic și captivant pentru orice iubitor al artei culinare."</p>
+            <p>Madalin Micle, critic</p>
+     </div>
+    <div class="container divstyle mt-3">
+                <h3>Premiul "Athenian Culinary Excellence Award"</h3>
+                <p>Cu mândrie și recunoștință, am plăcerea să anunț că restaurantul cu specific grecesc "Apollo's Feast" a câștigat prestigiosul premiu "Athenian Culinary Excellence Award". Acesta este un eveniment semnificativ în lumea gastronomică, recunoscând excelența și dedicarea unui restaurant față de autenticitate, calitate și inovație în bucătăria grecească.</p>
+                <p>Premiul "Athenian Culinary Excellence Award" reprezintă o validare a eforturilor susținute ale echipei Apollo's Feast de a oferi o experiență culinară excepțională și autentică, aducând cu sine aroma, tradiția și savoarea bucatelor grecești în inima orașului.</p>
+                <p>Echipa de bucătari, sub îndrumarea talentatului lor șef, a reușit să aducă la viață aromele și așteptările clienților într-un mod care a captivat și impresionat juriul. În plus, atenția la detalii, selecția riguroasă de ingrediente locale și internaționale, și respectul față de tradiție au fost elemente cheie care au contribuit la câștigarea acestui prestigios premiu.</p>
+                <p>Premiul "Athenian Culinary Excellence Award" nu face decât să întărească statutul Apollo's Feast ca un punct de referință în gastronomia grecească, confirmându-l ca pe o destinație culinară de primă clasă.</p>
+    </div>
+
+<div class="container pt-3">
+            <div class="row divstyle mb-3">
+                <div class="col-12">          
+                    <h3>Bucătarii noștri</h3>
+                </div>  
+            </div>
+
+<div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                <div class="card bg-light mb-3">
+                    <div class="row g-0">
+                        <div class="card-body">
+                            <img src="tip1.jpg" class="w-100 h-auto" alt="bărbat de vârstă mijlocie cu barbă care râde">
+                        <div class="col-md-12">
+                                <h3 class="card-header bg-light bellefair2 text-center">Peter Wenstein</h3>
+                                <p class="text-center">Prin talentul său și pasiunea pentru detaliu, Peter Weistein a contribuit la diversificarea meniului Apollo's Feast, aducând reinterpretări proaspete și inovatoare ale clasicei bucătării grecești. A fost un promotor activ al evenimentelor tematice și al experiențelor gastronomice unice.
+                                </p>   
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <div class="card bg-light mb-3">
+                            <div class="row g-0">
+                                <div class="card-body">
+                                    <img src="tip2.jpg" class="w-100 h-auto" alt="un bărbat tânăr cu păr blond lung prins într-o coadă și față serioasă ">
+                                <div class="col-md-12">
+                                        <h3 class="card-header bg-light bellefair2 text-center">Ivan Cristian</h3>
+                                        <p class="text-center">Prin talentul său și pasiunea pentru detaliu, Ivan a contribuit la diversificarea meniului Apollo's Feast, aducând reinterpretări proaspete și inovatoare ale clasicei bucătării grecești. A fost un promotor activ al evenimentelor tematice și al experiențelor gastronomice unice.
+                                        </p>   
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                                <div class="card bg-light mb-3">
+                                    <div class="row g-0">
+                                        <div class="card-body">
+                                            <img src="tip3.jpg" class="w-100 h-auto" alt="un bărbat de vârstă mijlocie cu ochelari și costum care zâmbește">
+                                        <div class="col-md-12">
+                                                <h3 class="card-header bg-light bellefair2 text-center">George Ivanovici</h3>
+                                                <p class="text-center"> Cu o pasiune profundă pentru bucătăria grecească, George Ivanovici aduce o experiență de peste 8 ani în domeniul culinar, dintre care ultimii 3 ani i-a petrecut în slujba restaurantului Apollo's Feast. În timpul carierei sale, George a dobândit o expertiză remarcabilă în preparatele tradiționale grecești
+                                                </p>   
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card bg-light mb-3">
+                                            <div class="row g-0">
+                                                <div class="card-body">
+                                                    <img src="tip4.jpg" class="w-100 h-auto" alt="un bărbat de vârstă mijlocie care zâmbește, fotografia fiind făcută dintr-o parte ">
+                                                <div class="col-md-12">
+                                                        <h3 class="card-header bg-light bellefair2 text-center">Cristian Mihai</h3>
+                                                        <p class="text-center">Cristian Mihai este cunoscut pentru abilitatea sa de a aduce la viață arome autentice și autenticitate în preparatele grecești. Specializat în preparate cu fructe de mare și mâncăruri cu legume proaspete, Cristian își pune amprenta asupra meniului Apollo's Feast prin inovație și respect pentru tradiție.
+                                                        </p>   
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                </div>
+                </div>  
+    <div id="evenimente"class="container">
+        <div class="row divstyle">
+            <div class="col-12">          
+                <h2>Evenimente</h2>
+            </div>  
+        </div>
+        <div class="row divstyle">
+            <div class="col-12"> 
+                <h3>Evenimente culturale</h2>         
+                <p>La Apollo's Feast, fiecare eveniment este o experiență de neuitat, aducând în prim-plan atmosfera sofisticată și rafinată a restaurantului. Seratele tematice transformă locul într-un decor magic, unde oaspeții se pot bucura de preparatele excepționale într-un cadru care sărbătorește creativitatea și stilul. Muzica live adaugă o notă de eleganță, oferind clienților ocazia de a se relaxa și de a se delecta cu aromele divine în timp ce ascultă note muzicale armonioase. Evenimentele speciale, bine orchestrate, transformă Apollo's Feast într-un punct de întâlnire pentru cei care apreciază nu doar gastronomia rafinată, ci și experiențele culinare complet immersive. </p>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12 mt-3">
+                <img class="w-100 rounded mt-4 mt-lg-0" src="eveniment1.jpg" alt="poză cu mese de restaurant cu tacâmuri pregatite de un eveniment" >
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <div class="accordion" >
+                    <div class="accordion-item color">
+                        <h3 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h3>Seara mediteraneană</h3>
+                            </button>
+                        </h3>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#acordeon">
+                            <div class="accordion-body color">
+        
+                                <p>În fiecare primă saptamână din lună, sâmbăta , sunteti așteptați să explorați cultura grecească. Muzica va fi asigurată de artiști consacrați, care vor evoca atmosfera specifica epocii de aur a Greciei. Vor avea loc degustări de mâncare,  de deserturi, iar fiecare lună ascunde un meniu special, pregătit cu sufet de bucătarii noștri. Prețurile variază între 100-150 de lei, în funcție de eveniment. Aruncați un ochi pe platforma de social media a restaurantului( instagram- @apollosfeast) pentru înscrieri!</p>
+                                <p>Meniul nostru excepțional va începe cu un antreu bogat, inclusiv delicii precum hummus cremos, tzatziki proaspăt, olive marinate și bruschete cu roșii uscate la soare și feta. Pentru cursul principal, veți avea posibilitatea să alegeți între opțiuni precum Santorini Seafood Risotto, Moussaka Extravaganza sau Lemon Herb Grilled Chicken. Încheiem această experiență gastronomică cu un desert deosebit, Baklava Symphony.
+                 Băuturile noastre vor completa perfect experiența, incluzând o selecție de vinuri mediteraneene, apă plată și minerală, precum și cocktail-uri speciale create pentru a vă încânta simțurile.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item color">
+                        <h3 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h3>Seara de film </h3>
+                            </button>
+                        </h3>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#acordeon">
+                            <div class="accordion-body">
+                                
+                            <p>În fiecare vineri, vă asteptăm, în limita locurilor discponibile, la o seară de filme, unde puteți să explorați lumea cinematografică magică a Greciei. De la productii actuale, ca Dogtooth, regizat de Lars Von Terrier, la clasicul Zorba the Greek.Invitații speciali, cineaști si producători, vor purta un dialog cu dvs, pentru a vă crea o imagine mai amplă despre filme. Biletele sunt în valoare de 50 de lei</p>
+                            <p>Pregătiți pentru o recepție caldă, începem seara cu un moment de socializare între pasionații de film, unde veți putea schimba impresii și entuziasmul pentru cultura greacă. La ora 19:00, vor începe proiecțiile de filme, alese cu grijă pentru a vă oferi o perspectivă variată asupra cinematografiei grecești contemporane. Subtitrările în limba engleză vor facilita o înțelegere profundă a poveștilor și mesajelor subiacente.
+
+                            După proiecții, vă invităm la o sesiune de discuții, unde puteți împărtăși impresii, gânduri și curiozități legate de filmele vizionate. Această parte a evenimentului va oferi oportunitatea de a conecta oamenii și de a crea dialoguri captivante despre arta cinematografică grecească.
+                            
+                            Pe durata serii, veți avea ocazia să savurați o varietate de mezeluri tradiționale grecești</p>
+                        </p></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item color">
+                        <h3 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h3>Seara de teatru</h3>
+                            </button>
+                        </h3>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#acordeon">
+                            <div class="accordion-body">
+                                <p>Asociația Studenților de Teatru de la Universitatea Babeș-Bolyai (UBB) vă invită să vă alăturați unei serii de evenimente deosebite dedicate teatrului grecesc, sub titlul "Odiseea Teatrală". În cadrul acestui spectacol inedit, vom aduce în lumină capodoperele clasice ale teatrului elen, oferind o reinterpretare contemporană și pasionantă.
+
+                                    Data evenimentului este stabilită pentru zece aprilie, începând cu ora 18:30, în sala de spectacole a UBB. Echipa noastră a lucrătorilor din spatele scenelor a pregătit un program divers și captivant, cuprinzând fragmente selecte din cele mai renumite tragedii și comedii ale teatrului grecesc clasic.
+                                    
+                                    De la miturile epice ale lui Euripide și Sofocle la comedii pline de umor de la Aristofan, fiecare act va purta publicul într-o călătorie fascinantă prin lumea bogată și plină de emoții a teatrului grecesc.
+                                    
+                                    După spectacol, vă invităm să vă alăturați unei discuții deschise despre influența teatrului grecesc în cultura contemporană și la modul în care aceste opere clasice continuă să reziste testului timpului.
+                                    
+                                    Biletele vor fi disponibile la intrare, iar toți banii strânși vor fi direcționați către susținerea proiectelor viitoare ale asociației. Pentru mai multe detalii și pentru a fi la curent cu noutățile, vă invităm să verificați pagina noastră oficială de socializare și site-ul web dedicat evenimentului.
+                                </p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-12 col-md-6 col-lg-4 col-sm-12 mt-3">
+                <img class="w-100 rounded mt-4 mt-lg-0" src="greekfood2.jpg" alt="tip de mâncare fine dining cu creveți și sos verde intr-o farfurie roșie cu un fundal roșu și o mână ce varsă sosul" />
+            </div>
+        </div>
+        <div class="row divstyle mt-3">
+            <div class="col-12"> 
+                <h3>Evenimente personale</h2>         
+                <p>
+                    Indiferent de ocazie, Apollo's Feast aduce laolaltă o combinație perfectă de ospitalitate excepțională, gastronomie rafinată și atmosferă incitantă.
+                    
+                    Pentru evenimente precum nunți, botezuri sau întâlniri corporate, restaurantul oferă pachete personalizate pentru a satisface cerințele și așteptările clienților. De la consultarea inițială pentru planificarea evenimentului până la desfășurarea efectivă a acestuia, echipa dedicată de la Apollo's Feast se asigură că fiecare detaliu este gestionat cu atenție și profesionalism.</p>
+                    
+                   <p> Locația în sine se adaptează cu ușurință la orice temă sau concept, oferind spații variate și flexibile pentru a găzdui grupuri de diferite dimensiuni. Fie că este vorba despre o atmosferă romantică și intimă sau de un eveniment grandios și plin de strălucire, Apollo's Feast este pregătit să facă din fiecare moment unul special.</p></div>  
+        </div>
+        <div class="row divstyle">
+            <div class="col-12 col-md-6 col-lg-6 col-sm-12 mt-3">
+                <div class="accordion" >
+                    <div class="accordion-item color">
+                        <h3 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h3>Nunți</h3>
+                            </button>
+                        </h3>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" >
+                            <div class="accordion-body color">
+                                       <p>Oferind o experiență gastronomică și estetică fără reproș, acest restaurant devine alegerea de elită pentru cuplurile care doresc să-și consacre uniunea într-un mod memorabil.
+
+                                        Cu un decor distinctiv și o arhitectură rafinată, Apollo's Feast reprezintă un spațiu deosebit, propice organizării evenimentelor de amploare, cum ar fi nunțile. Sala de festivități, meticulos amenajată, devine un cadru de excepție pentru solemnizarea jurămintelor și petrecerea sublimă care urmează.
+                                        
+                                        Meniul, alcătuit cu atenție și pasiune, reflectă excelența bucătăriei contemporane, combinând finețea ingredientelor cu tehnici culinare sofisticate. Preparatele inovatoare și rafinate aștern în fața invitaților o paletă de arome și gusturi, contribuind esențial la atmosfera deosebită a evenimentului.</p>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item color">
+                        <h3 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h3>Botezuri</h3>
+                            </button>
+                        </h3>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" >
+                            <div class="accordion-body">
+                                <p>Oferind o experiență gastronomică și estetică fără reproș, acest restaurant devine alegerea de elită pentru cuplurile care doresc să-și consacre uniunea într-un mod memorabil.
+
+                                    Cu un decor distinctiv și o arhitectură rafinată, Apollo's Feast reprezintă un spațiu deosebit, propice organizării evenimentelor de amploare, cum ar fi nunțile. Sala de festivități, meticulos amenajată, devine un cadru de excepție pentru solemnizarea jurămintelor și petrecerea sublimă care urmează.
+                                    
+                                    Meniul, alcătuit cu atenție și pasiune, reflectă excelența bucătăriei contemporane, combinând finețea ingredientelor cu tehnici culinare sofisticate. Preparatele inovatoare și rafinate aștern în fața invitaților o paletă de arome și gusturi, contribuind esențial la atmosfera deosebită a evenimentului.</p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item color">
+                        <h3 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h3>Evenimente corporate</h3>
+                            </button>
+                        </h3>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" >
+                            <div class="accordion-body">
+                                </div>
+                                <p>Oferind o experiență gastronomică și estetică fără reproș, acest restaurant devine alegerea de elită pentru cuplurile care doresc să-și consacre uniunea într-un mod memorabil.
+
+                                    Cu un decor distinctiv și o arhitectură rafinată, Apollo's Feast reprezintă un spațiu deosebit, propice organizării evenimentelor de amploare, cum ar fi nunțile. Sala de festivități, meticulos amenajată, devine un cadru de excepție pentru solemnizarea jurămintelor și petrecerea sublimă care urmează.
+                                    
+                                    Meniul, alcătuit cu atenție și pasiune, reflectă excelența bucătăriei contemporane, combinând finețea ingredientelor cu tehnici culinare sofisticate. Preparatele inovatoare și rafinate aștern în fața invitaților o paletă de arome și gusturi, contribuind esențial la atmosfera deosebită a evenimentului.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-sm-12 mt-3">
+                <img class="w-100 rounded mt-4 mt-lg-0" src="imagine1.jpg" alt="tip de mâncare fine dining cu vită,piure și sos roșu" >
+            </div>
+        
+    </div>
+    <hr class="hr hr-blurry" />
+
+    <div class="container">
+        <div class="row divstyle">
+            <div class="col-12">          
+                <h2 id="meniu">Meniu</h2>
+            </div>  
+        </div>
+        <div class="row divstyle">
+            <div class="col-12">          
+                <p>La Apollo's Feast, meniul este o operă de artă în sine, prezentându-se sub forma unei cărți deosebit de elaborate, cu copertă din piele fină și gravură aurie ce amintește de antichitatea greacă. Oaspeții sunt întâmpinați cu o atenție deosebită încă de la așezarea la masă, unde li se oferă meniul elegant într-un suport de argint.
+                    </p>
+            </div>  
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                <div class="card mt-3">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="poke.jpg" class="w-100 h-auto" alt="un pokebowl pe o masă">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h3 class="card-header bg-light bellefair2">Meniu feluri principale</h3>
+                                <h4 class="card-title">Preparate grecești</h3>
+                                    <p>Tzatziki......... 20 DE LEI....300g</p>
+                                    <p>Tirokafteri......... 70 DE LEI....360g</p>
+                                    <p>Taramosalata......... 50 DE LEI....300g</p>
+                                    <p>Saganaki cu vinete ......... 50 DE LEI....300g</p>
+                                <h4 class="card-title">Mâncare asiatică</h3>
+                                    <p>Poke bowl......... 50 DE LEI....300g</p>
+                                    <p>Ramen ......... 50 DE LEI....300g</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                <div class="card mt-3 mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h3 class="card-header bg-light bellefair2">Meniu evenimente</h3>
+                                <h4 class="card-title">Meniu special botez/nunți</h3>
+                                <p>Bouyourdi......... 45 DE LEI....300g</p>
+                                    <p>Brânză halloumi la grătar......... 50 DE LEI....300g</p>
+                                    <h4 class="card-title">Meniu special corporate</h3>
+                                    <p>Varianta I:Caracatiță cu dovlecel......... 53 DE LEI....300g</p>
+                                    <p>Varianta II:Calamar prăjit......... 57 DE LEI....300g</p>
+                                    <p>Varianta III: Creveți cu sos surpriză...60 de lei... 300g</p>
+                                    <p>Varianta IV: Calamar cu camamel...60 de lei.. 300g</p>
+                                    <a href="https://www.lipsum.com/">
+                                        <button type="button" class="btn btn-warning">
+                                            <span>Oferte pachet meniu</span>
+                                          </button>
+                                        </a>
+                                 </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="ramen.jpg" class="w-100 h-auto" alt="un bol cu ramen și o mână ce ține un băț chinezesc">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="alchoholmeniu.jpg" class="w-100 h-auto" alt="o serie de pahare așezate pe o masă ">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h3 class="card-header bg-light bellefair2">Băuturi</h3>
+                                    <h4 class="card-title">Băuturi nealcoolice</h3>
+                                    <p> Fresca Lemonada .......... 10 lei</p>
+                                    <p>Iced Greek Coffee .......... 12 lei</p>
+                                     <p>Cucumber Mint Cooler.........13 lei</p>
+                                    <p>Iced Greek Coffee .......... 12 lei</p>
+                                    <h4 class="card-title">Băuturi alcoolice</h3>
+                                    <p>Iced Greek Wodka .......... 12 lei</p>
+                                     <p>Hibiscus Vodka Fizz........14 lei</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h3 class="card-header bg-light bellefair2">Băuturi grecești alcoolice</h3>
+                                    <p>Ouzo Sunset ................ 12 lei</p>
+                                    <p>Mediterranean Mule.......15 lei(Vodcă, ghimbir, sirop de agave, apă tonică)</p>
+                                     <p>Grecian Mojito ..........14 lei(Rum, mentă, lămâie, sirop de zahăr, apă tonică)</p>
+                                     <p>Mykonos Breeze.......... 16 lei(Gin, lichior de caise, suc de grapefruit)</p>
+                                     <p>Mojito ..........14 lei(Rum, mentă, lămâie, sirop de zahăr, apă tonică)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="alcohol1.jpg" class="w-100 h-auto .img-fluid" alt="un pahar înalt de bere și o mână care varsă bere dintr-o sticlă">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+  </div>
+
+    <footer id="contact" class="main-footer mt-5">
+        <div class="container">
+            <div class="container">
+                <div class="d-flex justify-content-center pt-3">
+                    <ul class="nav justify-content-end list-unstyled d-flex">
+                        <li class="me-2">
+                            <a href="https://about.instagram.com/">
+                                <img src="instagramicon.png"  alt="logo instagram" >
+                            </a>
+                        </li>
+                        <li class="me-2">
+                            <a href="https://web.facebook.com/help/1058033620955509?_rdc=1&_rdr">
+                                <img src="facebookicon.png" alt="logo facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+             </div>
+        </div>
+        <div class="d-flex justify-content-center mt-3 pb-3">
+            <div class="me-5">Adresa: Strada Maidanului nr 84 | Orar 11:00-21:00</div>
+            <div class="me-5">© 2023 Copyright Apollo's feast   |   Politica de cookies</div>
+            <div>Contact gmail: apollosfeast@gmail.com</div>
+          </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
